@@ -1,4 +1,4 @@
-package org.appverse.web.showcases.gwtshowcase.gwtfrontend;
+package org.appverse.web.showcases.gwtshowcase.gwtfrontend.admin;
 
 import com.mvp4g.client.Mvp4gEntryPoint;
 import org.appverse.web.framework.frontend.gwt.helpers.dispatcher.AppverseDispatcher;

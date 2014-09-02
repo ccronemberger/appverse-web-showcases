@@ -127,8 +127,8 @@
 		<app.context.root>showcase</app.context.root>
         <appverse.framework.version>1.4-RELEASE</appverse.framework.version>
         <appverse.ddl-generator.version>1.0.5.1</appverse.ddl-generator.version>
-        <gwt-version>2.5.1</gwt-version>
-        <jersey.version>2.5</jersey.version> <!-- TODO: find why it does not work with Jersey 2.9 -->
+        <gwt-version>2.6.1</gwt-version>
+        <jersey.version>2.12</jersey.version> <!-- TODO: find why it does not work with Jersey 2.9 -->
     </properties>
 	
  	<build>
@@ -383,6 +383,31 @@
                 <groupId>org.glassfish.jersey.media</groupId>
                 <artifactId>jersey-media-json-jackson</artifactId>
                 <version>${jersey.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.glassfish.jersey.ext</groupId>
+                <artifactId>jersey-spring3</artifactId>
+                <version>${jersey.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.glassfish.jersey.core</groupId>
+                <artifactId>jersey-client</artifactId>
+                <version>${jersey.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.glassfish.jersey.containers</groupId>
+                <artifactId>jersey-container-servlet</artifactId>
+                <version>${jersey.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.glassfish.jersey.media</groupId>
+                <artifactId>jersey-media-multipart</artifactId>
+                <version>${jersey.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sencha.gxt</groupId>
+                <artifactId>gxt</artifactId>
+                <version>3.1.1</version>
             </dependency>
             <!-- Appverse uses version 1.3 but we want to use 1.4 -->
             <dependency>

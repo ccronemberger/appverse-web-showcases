@@ -26,6 +26,7 @@ Copyright (c) 2012 GFT Appverse, S.L., Sociedad Unipersonal.
     "http://google-web-toolkit.googlecode.com/svn/tags/2.5.0/distro-source/core/src/gwt-module.dtd">
 <module rename-to='admin'>
 
+    <inherits name='com.sencha.gxt.ui.GXT' />
 
     <!-- Inherits Modules -->
     <inherits name="org.appverse.web.framework.frontend.GwtshowcaseAPI" />
@@ -39,7 +40,7 @@ Copyright (c) 2012 GFT Appverse, S.L., Sociedad Unipersonal.
 
 
 	<!-- Entry point class. -->
-	<entry-point class='org.appverse.web.showcases.gwtshowcase.gwtfrontend.AdminEntryPoint' />
+	<entry-point class='org.appverse.web.showcases.gwtshowcase.gwtfrontend.admin.AdminEntryPoint' />
 
 	<!-- Translatable code paths -->
 	<source path="common" />
